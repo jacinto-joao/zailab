@@ -4,10 +4,15 @@ import {NgModule,Optional, SkipSelf} from '@angular/core';
 import { throwIfAlreadyLoaded } from './module-import-guard';
 
 
+/*Import Providers | Services*/
+import {AccountsService} from './services/account.service';
+import {HelperService} from './services/helper.service';
+
 @NgModule({
     imports:[],
     declarations:[],
-    exports:[]
+    exports:[],
+    providers:[AccountsService,HelperService]
 })
 
 export class CoreModule {

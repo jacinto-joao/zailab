@@ -1,0 +1,59 @@
+{
+    "accounts":[
+        {
+            "id":1,
+            "account_holder":"Jacinto Joao",
+            "account_type":"Current Account",
+            "account_number":23142354543656,
+            "balance":100,
+            "available":80
+        },
+        {
+            "id":2,
+            "account_holder":"Janine Theyers ",
+            "account_type":"Current Account",
+            "account_number":23142354543656,
+            "balance":245.500,
+            "available":200.0000
+        },
+        {
+            "id":3,
+            "account_holder":"Carl Daniels",
+            "account_type":"Current Account",
+            "account_number":23142354543656,
+            "balance":245.500,
+            "available":200.2000
+        },
+        {
+            "id":4,
+            "account_holder":"Nerisha Nerisha",
+            "account_type":"Savings Account",
+            "account_number":23142354543656,
+            "balance":10000.500,
+            "available":90.000
+        }, {
+            "id":5,
+            "account_holder":"Zailab",
+            "account_type":"Current Account",
+            "account_number":23142354543656,
+            "balance":2445.500,
+            "available":244.5000
+        }
+        , {
+            "id":6,
+            "account_holder":"CMS Recruit",
+            "account_type":"Current Account",
+            "account_number":23142354543656,
+            "balance":545.500,
+            "available":540.000
+        },
+        {
+            "id":7,
+            "account_holder":"Web Developers Account",
+            "account_type":"Savings Account",
+            "account_number":23142354543656,
+            "balance":65.500,
+            "available":30
+        }
+    ]
+}
