@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 /*Import Lazy Loads Module*/
 import { LayoutsModule } from './layouts/layouts.module';
 import { RoutesModule } from './routes/routes.module';
+import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     LayoutsModule,
     RoutesModule,
+    SharedModule.forRoot(),
     CoreModule
   ],
   providers: [],

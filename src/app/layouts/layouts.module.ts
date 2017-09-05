@@ -1,8 +1,14 @@
-import {NgModule,Optional, SkipSelf} from '@angular/core';
+import {NgModule} from '@angular/core';
+
+import { HeaderComponent } from './header/header.component';
+import { LayoutsComponent } from './layouts.component';
 
 @NgModule({
     imports:[],
-    declarations:[],
+    declarations:[
+        HeaderComponent,
+        LayoutsComponent
+    ],
     exports:[]
 })
 
