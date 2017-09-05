@@ -14,7 +14,7 @@ import { IAccounts } from './../../../shared/Interfaces/IAccounts';
 })
 
 export class AccountGridComponent implements OnInit {
-
+    withdraw:boolean = true;
     accounts:IAccounts[] = [];
     constructor(public _accounts:AccountsService) { }
 
@@ -22,6 +22,17 @@ export class AccountGridComponent implements OnInit {
         return this._accounts.getAccounts().subscribe(res =>{
            this.accounts = res.accounts;
         })
+    }
+
+    withdrawCash($ev:any, withdraw:any){
+        $ev.preventDefault();
+        console.log(withdraw);
+        
+        this.withdraw = false;
+    }
+
+    save(){
+        this.withdraw = true;
     }
 
     ngOnInit() { 
